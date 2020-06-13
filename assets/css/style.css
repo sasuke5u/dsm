@@ -1,0 +1,170 @@
+.header a, a:hover {
+	color: #333;
+	text-decoration: none;	
+}
+
+.header a>img {
+	height: 150px;	
+}
+
+.header h1 {
+	letter-spacing: 15px;
+	font-size: 180%;
+	letter-spacing: 1px;
+}
+
+.header p {
+	color: #333 !important;
+	font-size: 120%;
+	letter-spacing: 3px;
+	font-weight: 700;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	color: #333;
+	background-color: #f0f0f0;
+}
+
+.nav-pills>li>a {
+	color: #333;
+	background-color: #f0f0f0;
+}
+
+.nav-pills>li>a:hover {
+	background-color: #fff;
+	transition-duration: 1s;
+}
+
+.nav-pills>li>a>img {
+	height: 15px;
+}
+
+.navbar-inverse {
+	padding: 1%;
+	background-color: #fff;
+}
+
+.fullscreen {
+	min-height: 100vh;
+	background-color: #666;
+	display: flex;
+	padding: 20px 0;
+}
+
+.fullscreen_bg {
+	background: url("../img/dance_girl.jpg") center / cover no-repeat fixed;
+}
+
+.bgvideo {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+@media (max-width: 767px) {
+	.nav-pills>li {
+		float: none;
+	}
+
+	.nav-pills {
+		text-align: center;
+	}
+
+	.header h1 {
+		letter-spacing: 5px;
+		font-size: 280%;
+	}
+
+	.header {
+		text-align: center;
+	}
+}
+
+.clear {
+	clear: both;
+	height: 63px;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+footer a:hover {
+	color: #efefef;
+}
+
+.film_block {
+	text-align: center;
+}
+
+.film_block img {
+	margin-bottom: 5%;
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 100%;
+}
+
+.film_label {
+	padding: 2%;
+	margin-bottom: 4%;
+}
+
+.margin-8 {
+	margin-top: 8%;
+}
+
+.margin-9 {
+	margin-top: 5%;
+}
+
+.panel {
+	border: 0;
+}
+
+.panel-body {
+	background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+	background-color: #f0ad4e;
+	color: white;
+	border-color: transparent;
+}
+
+.sidebar-header {
+	font-size: 120%;
+	letter-spacing: 2px;
+}
+
+.form-control {
+	font-size: 14px;
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+.input-lg {
+	font-size: 14px;
+}
+
+footer {
+	color: #666;
+	background-color: #222;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #000;
+}
+
+footer a {
+	color: #999;
+}
